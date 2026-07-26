@@ -1,0 +1,111 @@
+{
+  "best_model": "Gradient Boosting",
+  "has_xgboost": false,
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.7095,
+      "Precision": 0.3827,
+      "Recall": 0.6978,
+      "F1": 0.4943,
+      "ROC_AUC": 0.7759,
+      "ConfusionMatrix": [
+        [
+          1135,
+          458
+        ],
+        [
+          123,
+          284
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "Accuracy": 0.762,
+      "Precision": 0.4512,
+      "Recall": 0.7838,
+      "F1": 0.5727,
+      "ROC_AUC": 0.8424,
+      "ConfusionMatrix": [
+        [
+          1205,
+          388
+        ],
+        [
+          88,
+          319
+        ]
+      ]
+    },
+    "Random Forest": {
+      "Accuracy": 0.8195,
+      "Precision": 0.5421,
+      "Recall": 0.7273,
+      "F1": 0.6212,
+      "ROC_AUC": 0.8658,
+      "ConfusionMatrix": [
+        [
+          1343,
+          250
+        ],
+        [
+          111,
+          296
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "Accuracy": 0.872,
+      "Precision": 0.7938,
+      "Recall": 0.5012,
+      "F1": 0.6145,
+      "ROC_AUC": 0.8696,
+      "ConfusionMatrix": [
+        [
+          1540,
+          53
+        ],
+        [
+          203,
+          204
+        ]
+      ]
+    }
+  },
+  "cv_scores": {
+    "Logistic Regression": {
+      "mean_roc_auc": 0.766,
+      "std_roc_auc": 0.0205
+    },
+    "Decision Tree": {
+      "mean_roc_auc": 0.8288,
+      "std_roc_auc": 0.0073
+    },
+    "Random Forest": {
+      "mean_roc_auc": 0.8568,
+      "std_roc_auc": 0.0117
+    },
+    "Gradient Boosting": {
+      "mean_roc_auc": 0.8637,
+      "std_roc_auc": 0.0093
+    }
+  },
+  "n_train": 8000,
+  "n_test": 2000,
+  "features": [
+    "CreditScore",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "BalanceToSalaryRatio",
+    "ProductDensity",
+    "EngagementProductInteraction",
+    "AgeTenureInteraction",
+    "Geography_Germany",
+    "Geography_Spain",
+    "Gender_Male"
+  ]
+}

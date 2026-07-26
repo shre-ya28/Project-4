@@ -1,0 +1,17 @@
+{
+  "Age": 0.3798758615156123,
+  "NumOfProducts": 0.27935578019196133,
+  "EngagementProductInteraction": 0.0848833588164081,
+  "Balance": 0.07125393490642536,
+  "Geography_Germany": 0.049373430986373125,
+  "IsActiveMember": 0.04057002106904664,
+  "BalanceToSalaryRatio": 0.026721660188942613,
+  "CreditScore": 0.019204037432489284,
+  "EstimatedSalary": 0.018177824191046996,
+  "Gender_Male": 0.012839341866510565,
+  "AgeTenureInteraction": 0.011293688375925334,
+  "ProductDensity": 0.004338499897676425,
+  "HasCrCard": 0.0011213014296484534,
+  "Tenure": 0.000522501508499331,
+  "Geography_Spain": 0.00046875762343416224
+}
